@@ -123,6 +123,10 @@
 /* Phone */
 @media (min-width: 319px) and (max-width: 480px) {
     /* Estilos do Título */
+
+    header{
+        margin-top: -4em;
+    }
     h1 {
         display: inline-block;
         font-size: 2.7em;
@@ -130,10 +134,18 @@
         text-align: initial;
     }
 
+    .imageBrand{
+        visibility: hidden;
+    }
+
+    main{
+        margin-top: -10em;
+    }
+
     .nav-link{
         transform: scale(.9);
     }
-
+    
     /* Estilos do Carousel */
     #carouselExampleSlidesOnly {
         visibility: hidden;
@@ -147,8 +159,7 @@
         align-items: center;
         justify-items: center;
         margin: auto;
-        padding: 1-*0px;
-        margin-top: -60em;
+        padding: 0px;
     }
 
     .my-grid1{
@@ -176,8 +187,7 @@
     }
 
     .left2 {
-     text-align: center;
-     flex-direction: column-reverse;
+        margin-left: -4em;
     }
 
     .space{
